@@ -14,7 +14,7 @@
 ## Installation
 
 ```bash
-npm install monaco-editor-vue
+npm install monaco-editor-vue-28
 ```
 
 ## Using with Webpack
@@ -34,7 +34,7 @@ npm install monaco-editor-vue
 </template>
 
 <script>
-import MonacoEditor from 'monaco-editor-vue';
+import MonacoEditor from 'monaco-editor-vue-28';
 export default {
   name: "App",
   components: {
