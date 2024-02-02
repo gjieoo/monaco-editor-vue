@@ -1,6 +1,6 @@
 {
   "name": "monaco-editor-vue",
-  "version": "1.0.10",
+  "version": "1.0.0",
   "description": "Monaco Editor for Vue.",
   "main": "dist/index.js",
   "module": "dist/index",
@@ -8,11 +8,6 @@
     "build": "babel src -d dist"
   },
   "prepublishOnly": "npm run build",
-  "repository": "https://github.com/FE-Mars/monaco-editor-vue",
-  "bugs": {
-    "url": "https://github.com/FE-Mars/monaco-editor-vue/issues"
-  },
-  "homepage": "https://github.com/FE-Mars/monaco-editor-vue",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
@@ -26,7 +21,7 @@
     "eslint-plugin-vue": "^6.1.2"
   },
   "dependencies": {
-    "monaco-editor": "^0.19.3",
+    "monaco-editor": "^0.28.1",
     "vue": "^2.6.11"
   },
   "keywords": [
